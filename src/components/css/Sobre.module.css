@@ -1,0 +1,36 @@
+.body{
+    height: 100vh;
+    background-color: #0b243a;
+}
+
+.contSobre{
+    color: #ffffff;
+    height: 90vh;
+}
+
+.contSobre .about{
+    width: 600px;
+    text-align: justify;
+    padding-left: 95px;
+}
+
+.img{
+    width: 500px;
+}
+
+@media screen and (max-width: 980px){
+    .img{
+        display: none;
+    }
+    .about{
+        padding-left: 0px !important;    
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .about{
+        padding-left: 0px !important;    
+        width: 250px !important;
+    }
+}

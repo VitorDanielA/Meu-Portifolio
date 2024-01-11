@@ -1,0 +1,13 @@
+.modeloPlano{
+    width: 125px;
+    height: 155px;
+    border: 2px solid #cccbcb;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modeloPlano:hover{
+    border: 2px solid #ce9bce;
+    transition: 1s;
+    background-color: #e9e9e9;
+}

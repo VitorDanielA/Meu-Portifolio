@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  background-color: #0b243a;
+  height: 100vh;
+}
+
+.img{
+  width: 500px;
+}
+
+.btn{
+    width: 260px;
+    height: 54px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(
+        to right,
+        #ff9036,
+        #ec8c69,
+        #ff9036,
+        #fbb03b
+      );
+      box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.btn:hover{
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.textContainer{
+    color: #ff9036;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.strong{
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.writed{
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  animation: typing 2.5s steps(20, end), blinking-caret 0.5s step-end infinite;
+  margin-bottom: 10px !important;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+@keyframes blinking-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+}
+
+@media screen and (max-width: 980px){
+  .img{
+    display: none;
+  }
+}

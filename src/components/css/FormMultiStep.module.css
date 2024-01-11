@@ -1,0 +1,108 @@
+.body{
+    height: 100vh;
+    background-color: #b9f1d6;  
+}
+
+.containerPrincipal{
+    width: 850px;
+    height: 540px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.containerStepsMain{
+    position: absolute;
+    top: 15%;
+    left: 40%; 
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.containerStepsMain2{
+    position: absolute;
+    top: 26%;
+    left: 43%; 
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.containerStepsMain3{
+    position: absolute;
+    top: 37%;
+    left: 38%; 
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.containerStepsMain4{
+    position: absolute;
+    top: 48%;
+    left: 39%; 
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.sidebar{
+    height: 500px;
+}
+
+.containerSteps{
+    width: 200px;
+}
+
+.circleNumber{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.active{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+    background-color: #b9f1d6;
+    color: #324150;
+}
+
+.step{
+    font-weight: 100;
+    font-size: 13px !important;
+}
+
+.info{
+    font-weight: 900;
+}
+
+.btn{
+    background-color: #042859 !important;
+    color: #ffffff !important;
+}
+
+.btn:hover{
+    background-color: #324150 !important;
+}
+
+.switchContainer{
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.titleStep{
+    color: #062958 !important;
+}
+
+.backP{
+    cursor: pointer;
+}
+
+.containerLastStep{
+    background-color: #e9e9e9;
+    border-radius: 10px;
+}

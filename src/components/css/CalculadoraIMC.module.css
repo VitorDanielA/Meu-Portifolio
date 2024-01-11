@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #6495ED;
+}
+
+.containerr{
+    height: 630px;
+    width: 520px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.button{
+    width: 100%;
+}

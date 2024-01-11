@@ -1,0 +1,92 @@
+.body{
+    height: 100vh;
+    background-color: #072541;
+}
+
+.containerP{
+    color: #ffffff;
+    background-color: #292929;
+    border-radius: 10px;
+    display: flex;
+}
+
+.containerEsquerda{
+    background-image: url('./../imgs/pexels-pixabay-314726.jpg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    min-width: 300px;
+    min-height: 400px;
+    border-radius: 18px;
+    filter:grayscale(0.5);
+    color: #555555;
+}
+
+.containerDireita{
+    border-radius: 15px;
+}
+
+.fontBold{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.clima{
+    font-size: 22px;
+}
+
+.btn{
+    width: 260px;
+    border-radius: 20px !important;
+}
+
+.input{
+    padding-left: 5px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.cardTemp{
+    height: 100px;
+    border: none;
+    color: #292929;
+    background-color: #ffffff;
+    width: 80px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 610px){
+    .containerP{
+        display: block;
+        margin-top: 5px;
+    }
+
+    .containerEsquerda{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .body{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 337px){
+    .containerP{
+        width: 260px;
+    }
+
+    .containerEsquerda{
+        min-width: 250px !important;
+    }
+
+    .cardTemp{
+        width: 65px !important;
+    }
+}

@@ -1,0 +1,20 @@
+.body{
+    background-color: #fce185;
+    height: 100vh;
+}
+
+.containerMain{
+    max-width: 370px;
+    background-color: #faba66;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lista{
+    width: 100%;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #351330;
+    border-radius: 6px;
+    height: 45px;
+}

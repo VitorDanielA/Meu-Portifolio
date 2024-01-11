@@ -1,0 +1,7 @@
+.addContainer{
+    border: 2px solid #cccbcb;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 75px;
+    width: 400px;
+}

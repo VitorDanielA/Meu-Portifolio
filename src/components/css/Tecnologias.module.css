@@ -1,0 +1,19 @@
+.body{
+    height: 100vh;
+    background-color: #0b243a;
+    color: #ffffff;
+}
+
+.contIcons{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 520px) {
+    .contIcons{
+        display: block;
+        margin-top: 125px;
+    }
+}

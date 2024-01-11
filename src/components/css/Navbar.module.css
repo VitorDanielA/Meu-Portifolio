@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.navbar{
+    background-color: #ff9036;
+}
+
+.navbar .navlink, .navlinks, .navlinksHome{
+    color: #ffffff !important;
+}
+
+.navlink{
+    padding-left: 75px;
+}
+
+.navlinksHome{
+    margin-left: 48px;
+}
+
+.navbarBrand{
+    color: #ffffff !important;
+}
+
+.navlinksHome:hover, .navlinks:hover, .navlink:hover{
+    color: #dfdfdf !important;
+    transition: 0.5s;
+}
+
+.customToggle{
+    border: none;
+    background-color: transparent;
+    margin-right: 15px;
+    outline: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1115px){
+    .navlink{
+        padding-left: 0px;
+    }
+
+    .navlinksHome{
+        padding-left: 0px;
+        margin-left: 0px !important;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .navlink{
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .navlink{
+        padding-left: 0px;
+    }
+}
+
