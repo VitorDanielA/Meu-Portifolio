@@ -22,7 +22,7 @@ export default function ContainerProjetosInvertido(props){
     const containerDescricao = () =>{
         return(
             <div className={`${styles.contDescricaoInvertido} me-5`}>
-                <h3 className={`${styles.titulo} mt-2`}>{props.titulo}</h3>
+                <h3 className={`${styles.titulo} mt-3`}>{props.titulo}</h3>
                 <p className='mt-3'>{props.descricao}</p>
                 <p><strong className='me-3'>{props.tecnologia1}</strong> <strong>{props.tecnologia2}</strong> <strong className="ms-3">{props.tecnologia3}</strong> </p>
                 <div className='mt-4'>

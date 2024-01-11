@@ -42,6 +42,7 @@
 @media screen and (max-width: 500px) {
     .img, .contDescricao, .contDescricaoInvertido{
         width: 400px;
+        margin-left: 0px;
     }
 }
 
