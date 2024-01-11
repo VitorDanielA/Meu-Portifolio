@@ -19,10 +19,10 @@ export default function Rotas(){
             <label className={styles.strong}>Eu sou um 
               <p className={styles.writed}>Desenvolvedor Frontend</p> 
             </label> 
-            <h4>Bem vindo ao meu Portifólio</h4>
+            <h4 className={styles.welcome}>Bem vindo ao meu Portifólio</h4>
           </h2>
           <Link to ='/sobre'><button className={`${styles.btn} mt-3`}>Mais sobre mim</button></Link>
-          <div className='d-flex mt-4'>
+          <div className={`${styles.links} d-flex mt-4`}>
             <Link to='https://github.com/VitorDanielA?tab=repositories' target='_blank'><img alt='Github' src={iconGithub} className={`${styles.icons} me-4`} ></img></Link>
             <Link to='https://www.linkedin.com/in/vitor-daniel-almeida-silva-738066283/' target='_blank'><img alt='Linkedin' src={iconLinkedin} className={styles.icons}></img></Link>
           </div>

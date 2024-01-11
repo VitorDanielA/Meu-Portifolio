@@ -29,7 +29,7 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     .containerPrincipal{
         display: block !important;
     }
@@ -40,20 +40,32 @@
 }
 
 @media screen and (max-width: 500px) {
-    .img, .contDescricao{
+    .img, .contDescricao, .contDescricaoInvertido{
         width: 400px;
     }
 }
 
 @media screen and (max-width: 443px) {
-    .img, .contDescricao{
+    .img, .contDescricao, .contDescricaoInvertido{
         width: 350px;
     }
 }
 
 @media screen and (max-width: 393px) {
-    .img, .contDescricao{
+    .img, .contDescricao, .contDescricaoInvertido{
         width: 310px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .img, .contDescricao, .contDescricaoInvertido{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 327px) {
+    .img, .contDescricao, .contDescricaoInvertido{
+        width: 220px;
     }
 }
 

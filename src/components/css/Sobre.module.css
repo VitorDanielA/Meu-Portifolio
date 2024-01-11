@@ -28,7 +28,7 @@
     }
 }
 
-@media screen and (max-width: 280px){
+@media screen and (max-width: 328px){
     .about{
         padding-left: 0px !important;    
         width: 250px !important;

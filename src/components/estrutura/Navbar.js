@@ -7,7 +7,7 @@ import {CodeSlash} from 'react-bootstrap-icons';
 
 export default function Navbarr(){
     return(
-        <Navbar expand="sm" className={`${styles.navbar}`}>
+        <Navbar expand="md" className={`${styles.navbar}`}>
             <Container>
                 <Navbar.Brand href="/sobre" className={`${styles.navlink}`}><CodeSlash size={32} color="white" className="me-2"/> Vitor Daniel</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.customToggle} />
