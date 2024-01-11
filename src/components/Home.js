@@ -7,7 +7,6 @@ import styles from './css/Home.module.css';
 import {Link} from 'react-router-dom';
 import Footer from './estrutura/Footer';
 
-
 export default function Rotas(){
 
   return(

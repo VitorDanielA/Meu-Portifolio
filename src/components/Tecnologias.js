@@ -2,7 +2,6 @@ import React from 'react';
 import Navbarr from './estrutura/Navbar';
 import styles from './css/Tecnologias.module.css';
 import { FaHtml5, FaCss3, FaJs, FaBootstrap, FaReact, FaGitSquare } from 'react-icons/fa';
-import Footer from './estrutura/Footer';
 
 export default function Tecnologias(){
     return(
@@ -39,7 +38,6 @@ export default function Tecnologias(){
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }
