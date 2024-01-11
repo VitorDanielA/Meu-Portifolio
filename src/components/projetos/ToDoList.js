@@ -6,7 +6,7 @@ export default function ToDoList(){
 
     const [lista, setLista] = useState([]);
     const [novoItem, setNovoItem] = useState('');
-    const [lastValue, setLastValue] = useState('');
+    const [, setLastValue] = useState('');
 
     const adicionarItem = () => {
         setLista([...lista, novoItem]);
@@ -17,7 +17,6 @@ export default function ToDoList(){
     const excluirItem = (index) => {
         const novaLista = lista.filter((i) => i !== index);
         setLista(novaLista);
-        setNovoItem(lastValue);
     }
 
     const mostrarLista = () => {
@@ -41,7 +40,7 @@ export default function ToDoList(){
                 <p className="text-center fw-bold">Adicione uma nova tarefa na lista</p>
                 {lista ? mostrarLista() : ''}
                 <div className="d-flex my-4">
-                    <input type="text" className="form-control" onChange={(e) => setNovoItem(e.target.value)}></input>
+                    <input type="text" className="form-control" maxLength={25} value={novoItem} onChange={(e) => setNovoItem(e.target.value)}></input>
                 </div>
                 <button className="btn btn-dark w-100 mb-3" onClick={() => adicionarItem()}>Adicionar</button>
             </div>

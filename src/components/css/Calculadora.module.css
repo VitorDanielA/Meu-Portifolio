@@ -55,3 +55,9 @@
     background-color: #eeeeee;
     transition: 0.4s;
 }
+
+@media screen and (max-width: 370px) {
+    .contt{
+        width: 260px;
+    }
+}

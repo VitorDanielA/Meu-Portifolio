@@ -38,7 +38,7 @@ export default function Projetos(){
                     titulo = 'Formulário Multi Etapa'
                     imagem = {FormularioMultiEtapa}
                     caminho = '/formMultiStep'
-                    descricao = 'Projeto do Frontend Mentor, na qual o objetivo é uma simulação de um formulário por etapas, onde já tem as informações estabelecidas.'
+                    descricao = 'Projeto do Frontend Mentor, na qual o objetivo é uma simulação de um formulário por etapas. (faltam ajustes de responsividade para mobile).'
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />

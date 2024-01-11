@@ -27,7 +27,7 @@ export default function Pagina5(){
     const buscarClima = async () => {
       try {
         const response = await axios.get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=5ac12826003a427634ea470eaac014d3`
+        `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=5ac12826003a427634ea470eaac014d3`
         );
         setClima(response.data); 
         } catch (error) {
