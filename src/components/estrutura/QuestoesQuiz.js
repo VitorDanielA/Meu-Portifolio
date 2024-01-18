@@ -44,7 +44,29 @@ export default function QuestoesQuiz(props){
             setRespostaCorreta(2);
             setDesabilitar(true);
             atualizarQtdPontos();
-        } else {
+        } else if(respostaCerta === letraA && numeroQuestao === 6 && opcaoSelecionada === 1){
+            setRespostaCorreta(2);
+            setDesabilitar(true);
+            atualizarQtdPontos();
+        } else if(respostaCerta === letraD && numeroQuestao === 7 && opcaoSelecionada === 4){
+            setRespostaCorreta(2);
+            setDesabilitar(true);
+            atualizarQtdPontos();
+        } else if(respostaCerta === letraB && numeroQuestao === 8 && opcaoSelecionada === 2){
+            setRespostaCorreta(2);
+            setDesabilitar(true);
+            atualizarQtdPontos();
+        } else if(respostaCerta === letraB && numeroQuestao === 9 && opcaoSelecionada === 2){
+            setRespostaCorreta(2);
+            setDesabilitar(true);
+            atualizarQtdPontos();
+        } else if(respostaCerta === letraC && numeroQuestao === 10 && opcaoSelecionada === 3){
+            setRespostaCorreta(2);
+            setDesabilitar(true);
+            atualizarQtdPontos();
+        }
+        
+        else {
             setRespostaCorreta(3);
             setDesabilitar(true);
         }
@@ -86,7 +108,7 @@ export default function QuestoesQuiz(props){
                 </div>
             </div>
             <div className='d-flex justify-content-between p-3'>
-                <p className='pt-3 ps-3'>{props.numQuest} de 5 Questões</p>
+                <p className='pt-3 ps-3'>{props.numQuest} de 10 Questões</p>
                 <button className={`btn btn-light h-50 mt-2 me-2`} onClick={() => atualizarSeqQuiz()}>{props.botaoNext}</button>
             </div>
         </div>

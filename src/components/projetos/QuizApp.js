@@ -23,7 +23,7 @@ export default function QuizApp(){
                 <h4 className='p-3'>Regras do Quiz</h4>
                 <div className={`${styles.rules} py-2`}>
                     <ol>
-                        <li>Serão 5 questões.</li>
+                        <li>Serão 10 questões.</li>
                         <li>Você tem 15 segundos por questão.</li>
                         <li>Depois de selecionar, não pode voltar.</li>
                         <li>Não pode selecionar depois que o tempo acabar.</li>
@@ -44,7 +44,7 @@ export default function QuizApp(){
             <div className={`${styles.cardQuiz} p-4 text-center`}>
                 <p><Star size={128} color='white'/></p>
                 <p><strong>Parabéns! Você concluiu com sucesso o Quiz</strong></p>
-                <p>Sua pontuação foi de {qtdPontos}/5</p>
+                <p>Sua pontuação foi de {qtdPontos}/10</p>
                 <div className='d-flex justify-content-around'>
                     <button className='btn btn-primary' onClick={() => {setViewQuiz(true); setSeqQuiz(0); setQtdPontos(0)}}>Recomeçar Quiz</button>
                     <Link to='https://www.corinthians.com.br/' className='btn btn-primary'>Sair do Quiz</Link>
@@ -114,12 +114,72 @@ export default function QuizApp(){
                 choice3 = "24"
                 choice4 = "42"
                 numQuest = {5}
+                botaoNext = "Próximo"
+                setSeqQuiz = {setSeqQuiz}
+                questaoCerta = "C"
+                setQtdPontos = {setQtdPontos}
+            /> : ""}
+            {seqQuiz === 6 ? <QuestoesQuiz 
+                questao = "6. Quantos campeonatos brasileiros o Corinthians têm? "
+                choice1 = "7"
+                choice2 = "6"
+                choice3 = "5"
+                choice4 = "8"
+                numQuest = {6}
+                botaoNext = "Próximo"
+                setSeqQuiz = {setSeqQuiz}
+                questaoCerta = "A"
+                setQtdPontos = {setQtdPontos}
+            /> : ""}
+            {seqQuiz === 7 ? <QuestoesQuiz 
+                questao = "7. Quantos campeonatos paulista o Corinthians têm? "
+                choice1 = "32"
+                choice2 = "36"
+                choice3 = "28"
+                choice4 = "30"
+                numQuest = {7}
+                botaoNext = "Próximo"
+                setSeqQuiz = {setSeqQuiz}
+                questaoCerta = "D"
+                setQtdPontos = {setQtdPontos}
+            /> : ""}
+            {seqQuiz === 8 ? <QuestoesQuiz 
+                questao = "8. Qual o maior artilheiro da arena Corinthians? "
+                choice1 = "Romero"
+                choice2 = "Roger Guedes"
+                choice3 = "Yuri Alberto"
+                choice4 = "Jô"
+                numQuest = {8}
+                botaoNext = "Próximo"
+                setSeqQuiz = {setSeqQuiz}
+                questaoCerta = "B"
+                setQtdPontos = {setQtdPontos}
+            /> : ""}
+            {seqQuiz === 9 ? <QuestoesQuiz 
+                questao = "9. Quantas copinhas o Corinthians têm? "
+                choice1 = "9"
+                choice2 = "10"
+                choice3 = "5"
+                choice4 = "7"
+                numQuest = {9}
+                botaoNext = "Próximo"
+                setSeqQuiz = {setSeqQuiz}
+                questaoCerta = "B"
+                setQtdPontos = {setQtdPontos}
+            /> : ""}
+            {seqQuiz === 10 ? <QuestoesQuiz 
+                questao = "10. De quem o Corinthians venceu a final do mundial em 2000 e 2012? "
+                choice1 = "Real Madrid e Chelsea"
+                choice2 = "Manchester U e Bayern"
+                choice3 = "Vasco e Chelsea"
+                choice4 = "Real Madrid e Milan"
+                numQuest = {10}
                 botaoNext = "Finalizar"
                 setSeqQuiz = {setSeqQuiz}
                 questaoCerta = "C"
                 setQtdPontos = {setQtdPontos}
             /> : ""}
-            {seqQuiz === 6 ? resultado() : ""}
+            {seqQuiz === 11 ? resultado() : ""}
         </div>
     )
 }
