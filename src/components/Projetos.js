@@ -10,6 +10,7 @@ import buscadorClima from './imgs/API de Clima.png';
 import FormularioMultiEtapa from './imgs/FormularioMultiEtapas.png';
 import ToDoList from './imgs/ToDoList.png';
 import QuizApp from "./imgs/quizApp.png";
+import MakeBurguer from "./imgs/MakeBurguer.png";
 
 export default function Projetos(){
     return(
@@ -27,6 +28,16 @@ export default function Projetos(){
                     tecnologia3 = 'Bootstrap'
                 />
                 <ContainerProjetosInvertido
+                    titulo = 'Pedidos de Hambúrguer'
+                    imagem = {MakeBurguer}
+                    caminho = 'https://projeto-make-hamburguer.vercel.app/'
+                    descricao = "Construção de Hambúrguer e gerenciamento de pedidos, projeto baseado no curso de VueJS do Hora de Codar."
+                    tecnologia1 = 'VueJS'
+                    tecnologia2 = 'Vite'
+                    tecnologia3 = 'Json-server'
+                    target = '_BLANK'
+                />
+                <ContainerProjetos
                     titulo = 'Quiz APP'
                     imagem = {QuizApp}
                     caminho = '/quizApp'
@@ -34,7 +45,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'Formulário Multi Etapa'
                     imagem = {FormularioMultiEtapa}
                     caminho = '/formMultiStep'
@@ -42,7 +53,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetosInvertido
+                <ContainerProjetos
                     titulo = 'API de CEP'
                     imagem = {buscadorCep}
                     caminho = '/buscadorCep'
@@ -50,7 +61,7 @@ export default function Projetos(){
                     tecnologia1 = 'API'
                     tecnologia2 = 'React JS'
                 />   
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'To Do List'
                     imagem = {ToDoList}
                     caminho = '/toDoList'
@@ -58,7 +69,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetosInvertido 
+                <ContainerProjetos 
                     titulo = 'Calculadora' 
                     imagem = {calculadora}
                     caminho = '/calculadora' 
@@ -66,7 +77,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'Calculadora IMC' 
                     imagem = {calculadoraIMC}
                     caminho = '/calculadoraIMC' 
