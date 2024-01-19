@@ -27,7 +27,7 @@ export default function ContainerProjetosInvertido(props){
                 <p><strong className='me-3'>{props.tecnologia1}</strong> <strong>{props.tecnologia2}</strong> <strong className="ms-3">{props.tecnologia3}</strong> </p>
                 <div className='mt-4'>
                     <Link to={props.caminho} target={props.target} className='btn btn-dark'><Eye size={16} color="white"/></Link>
-                    <Link to='' className='btn btn-dark ms-3'><Code size={16} color="white"/></Link>
+                    <Link to={props.repositorio} className='btn btn-dark ms-3' target='_BLANK'><Code size={16} color="white"/></Link>
                 </div>
             </div>
         )
