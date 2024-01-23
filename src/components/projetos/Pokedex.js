@@ -56,8 +56,8 @@ export default function Pokedex(){
           <div className="form-group container w-100 d-flex justify-content-center mt-5">
             <input 
               type="text" 
-              class="form-control text-center w-25" 
-              placeholder="Digite o Pokemon"
+              class={`${styles.input} form-control text-center `} 
+              placeholder="Busque o Pokemon"
               onChange={(e) => setPokemonNome(e.target.value)}
             />
           </div>
@@ -71,7 +71,6 @@ export default function Pokedex(){
                 imgPokemon = {pokemonDetalhes[pokemon.url] && pokemonDetalhes[pokemon.url].sprites ? pokemonDetalhes[pokemon.url].sprites.front_default : ""}
               />
             ))}
-                
           </div>
         </div>
     )
