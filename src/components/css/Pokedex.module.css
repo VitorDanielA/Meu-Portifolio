@@ -2,3 +2,249 @@
     color: #f7ea04;
     font-weight: bold;
 }
+
+.card{
+    background-color: #75736b !important;
+    color: #ffffff !important ;
+}
+
+.pokemonEletrico{
+    background-color: #f7ea04;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonEletricoCard{
+    background-color: #868003 !important;
+    color: #ffffff !important ;
+}
+
+.pokemonGrama{
+    background-color: #008206;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonGramaCard{
+    background-color: #04af0c !important;
+    color: #ffffff !important ;
+}
+
+.pokemonGelo{
+    background-color: #75d0ea;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonGeloCard{
+    background-color: #65d7f7 !important;
+    color: #ffffff !important ;
+}
+
+.pokemonAco{
+    background-color: #898b75;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonAcoCard{
+    background-color: #606151 !important;
+    color: #ffffff !important ;
+}
+
+.pokemonFogo{
+    background-color: #f70b17;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonFogoCard{
+    background-color: #bd040d !important;
+    color: #ffffff !important ;
+}
+
+.pokemonVeneno{
+    background-color: #9d007a;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonVenenoCard{
+    background-color: #63014e !important;
+    color: #ffffff !important;
+}
+
+.pokemonVenenoCard:hover, .pokemonAcoCard:hover, .pokemonAguaCard:hover, .pokemonEletricoCard:hover, .pokemonFadaCard:hover, .pokemonFantasmaCard:hover, .pokemonFogoCard:hover, .pokemonInsetoCard:hover, .pokemonGeloCard:hover, .pokemonGramaCard:hover, .pokemonLutadorCard:hover, .pokemonPedraCard:hover, .pokemonPsiCard:hover, .pokemonVoadorCard:hover, .pokemonTerraCard:hover, .pokemonNormalCard:hover{
+    scale: 1.1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.pokemonLutador{
+    background-color: #535233;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonLutadorCard{
+    background-color: #3a3923 !important;
+    color: #ffffff !important;
+}
+
+.pokemonPedra{
+    background-color: #423431;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonPedraCard{
+    background-color: #1f1817 !important;
+    color: #ffffff !important;
+}
+
+.pokemonPsi{
+    background-color: #620e5d;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonPsiCard{
+    background-color: #3d083a !important;
+    color: #ffffff !important;
+}
+
+.pokemonAgua{
+    background-color: #32bdc5;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonAguaCard{
+    background-color: #1c6f74 !important;
+    color: #ffffff !important;
+}
+
+.pokemonVoador{
+    background-color: #f6aa3d;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonVoadorCard{
+    background-color: #b47c2c !important;
+    color: #ffffff !important;
+}
+
+.pokemonInseto{
+    background-color: #496940;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonInsetoCard{
+    background-color: #293b24 !important;
+    color: #ffffff !important; 
+}
+
+.pokemonFada{
+    background-color: #fa748f;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonFadaCard{
+    background-color: #ca5d73 !important;
+    color: #ffffff !important;
+}
+
+.pokemonTerra{
+    background-color: #8a2f2e;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonTerraCard{
+    background-color: #571e1d !important;
+    color: #ffffff !important;
+}
+
+.pokemonFantasma{
+    background-color: #412973;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonFantasmaCard{
+    background-color: #21153b !important;
+    color: #ffffff !important;
+}
+
+.pokemonNormal{
+    background-color: #580d0f;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonNormalCard{
+    background-color: #1d0404 !important;
+    color: #ffffff !important;
+}
+
+.btn{
+    background-color: #ffffff !important;
+    transition: 1.2s;
+    color: #000000 !important;
+}
+
+.btn:hover{
+    background-color: #cccbc1 !important;
+    color: #1a0000 !important;
+}
