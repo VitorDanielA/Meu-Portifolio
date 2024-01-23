@@ -11,6 +11,7 @@ import Sobre from "./components/Sobre";
 import FormMultiStep from "./components/FormMultiStep";
 import ToDoList from "./components/projetos/ToDoList";
 import QuizApp from "./components/projetos/QuizApp";
+import Pokedex from "./components/projetos/Pokedex";
  
 function App(){
     return(
@@ -27,6 +28,7 @@ function App(){
                 <Route path="/formMultiStep" element = {<FormMultiStep/>}/>
                 <Route path="/toDoList" element = {<ToDoList/>}/>
                 <Route path="/quizApp" element = {<QuizApp/>}/>
+                <Route path="/pokedex" element = {<Pokedex/>}/>
             </Routes>
         </Router>
     )       
