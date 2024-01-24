@@ -23,7 +23,7 @@
 }
 
 .pokemonGrama{
-    background-color: #008206;
+    background-color: #029709;
     color: #ffffff;
     height: 30px;
     width: 120px;
@@ -32,12 +32,12 @@
 }
 
 .pokemonGramaCard{
-    background-color: #04af0c !important;
+    background-color: #037008 !important;
     color: #ffffff !important ;
 }
 
 .pokemonGelo{
-    background-color: #75d0ea;
+    background-color: #3fcdf5;
     color: #ffffff;
     height: 30px;
     width: 120px;
@@ -46,7 +46,7 @@
 }
 
 .pokemonGeloCard{
-    background-color: #65d7f7 !important;
+    background-color: #73d6f1 !important;
     color: #ffffff !important ;
 }
 
@@ -92,9 +92,7 @@
     color: #ffffff !important;
 }
 
-.pokemonVenenoCard:hover, .pokemonAcoCard:hover, .pokemonAguaCard:hover, .pokemonEletricoCard:hover, .pokemonFadaCard:hover, .pokemonFantasmaCard:hover, .pokemonFogoCard:hover, .pokemonInsetoCard:hover, .pokemonGeloCard:hover, .pokemonGramaCard:hover, .pokemonLutadorCard:hover, .pokemonPedraCard:hover, .pokemonPsiCard:hover, .pokemonVoadorCard:hover, .pokemonTerraCard:hover, .pokemonNormalCard:hover{
-    scale: 1.1;
-    transition: 1s;
+.pokemonVenenoCard:hover, .pokemonAcoCard:hover, .pokemonAguaCard:hover, .pokemonEletricoCard:hover, .pokemonFadaCard:hover, .pokemonFantasmaCard:hover, .pokemonFogoCard:hover, .pokemonInsetoCard:hover, .pokemonGeloCard:hover, .pokemonGramaCard:hover, .pokemonLutadorCard:hover, .pokemonPedraCard:hover, .pokemonPsiCard:hover, .pokemonVoadorCard:hover, .pokemonTerraCard:hover, .pokemonNormalCard:hover, .pokemonDragaoCard:hover{
     cursor: pointer;
 }
 
@@ -225,7 +223,7 @@
 }
 
 .pokemonNormal{
-    background-color: #580d0f;
+    background-color: #410306;
     color: #ffffff;
     height: 30px;
     width: 120px;
@@ -234,7 +232,21 @@
 }
 
 .pokemonNormalCard{
-    background-color: #1d0404 !important;
+    background-color: #571a1a !important;
+    color: #ffffff !important;
+}
+
+.pokemonDragao{
+    background-color: #5a1d1f;
+    color: #ffffff;
+    height: 30px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.pokemonDragaoCard{
+    background-color: #350203 !important;
     color: #ffffff !important;
 }
 
@@ -250,7 +262,11 @@
 }
 
 .input{
-    width: 230px;
+    width: 230px !important;
+}
+
+.imgModal{
+    height: 220px;
 }
 
 @media screen and (max-width:769px) {

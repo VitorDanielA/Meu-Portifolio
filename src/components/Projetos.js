@@ -11,6 +11,7 @@ import FormularioMultiEtapa from './imgs/FormularioMultiEtapas.png';
 import ToDoList from './imgs/ToDoList.png';
 import QuizApp from "./imgs/quizApp.png";
 import MakeBurguer from "./imgs/MakeBurguer.png";
+import Pokedex from './imgs/pokedex.png';
 
 export default function Projetos(){
     return(
@@ -19,6 +20,16 @@ export default function Projetos(){
             <div className="container">
                 <h2 className={`${styles.h1} mt-4`}>Meus Projetos</h2>
                 <ContainerProjetos
+                    titulo = 'Pokedex'
+                    imagem = {Pokedex}
+                    caminho = '/pokedex'
+                    repositorio = ''
+                    descricao = 'Uma pokedex criada utilizando a API RESTful do Pokéapi, na qual é mostrado todos os pokemons da primeira geração e seus detalhes.'
+                    tecnologia1 = 'API'
+                    tecnologia2 = 'React JS'
+                    tecnologia3 = 'Bootstrap'
+                />
+                <ContainerProjetosInvertido
                     titulo = 'API de Clima'
                     imagem = {buscadorClima}
                     caminho = '/buscadorClima'
@@ -28,7 +39,7 @@ export default function Projetos(){
                     tecnologia2 = 'React JS'
                     tecnologia3 = 'Bootstrap'
                 />
-                <ContainerProjetosInvertido
+                <ContainerProjetos
                     titulo = 'Pedidos de Hambúrguer'
                     imagem = {MakeBurguer}
                     caminho = 'https://projeto-make-hamburguer.vercel.app/'
@@ -39,7 +50,7 @@ export default function Projetos(){
                     tecnologia3 = 'Json-server'
                     target = '_BLANK'
                 />
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'Quiz APP'
                     imagem = {QuizApp}
                     caminho = '/quizApp'
@@ -49,7 +60,7 @@ export default function Projetos(){
                     tecnologia2 = 'Bootstrap'
                 />
                 
-                <ContainerProjetosInvertido
+                <ContainerProjetos
                     titulo = 'API de CEP'
                     imagem = {buscadorCep}
                     caminho = '/buscadorCep'
@@ -58,7 +69,7 @@ export default function Projetos(){
                     tecnologia1 = 'API'
                     tecnologia2 = 'React JS'
                 />   
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'To Do List'
                     imagem = {ToDoList}
                     caminho = '/toDoList'
@@ -67,7 +78,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetosInvertido 
+                <ContainerProjetos 
                     titulo = 'Calculadora' 
                     imagem = {calculadora}
                     caminho = '/calculadora' 
@@ -76,7 +87,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetos
+                <ContainerProjetosInvertido
                     titulo = 'Calculadora IMC' 
                     imagem = {calculadoraIMC}
                     caminho = '/calculadoraIMC' 
@@ -85,7 +96,7 @@ export default function Projetos(){
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
                 />
-                <ContainerProjetosInvertido
+                <ContainerProjetos
                     titulo = 'Formulário Multi Etapa'
                     imagem = {FormularioMultiEtapa}
                     caminho = '/formMultiStep'

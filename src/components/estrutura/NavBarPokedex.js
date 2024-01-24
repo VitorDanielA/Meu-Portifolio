@@ -4,12 +4,8 @@ import Pikachu from '../imgs/pikachu (1).png';
 export default function NavBarPokedex(){
     return(
         <div>
-            <nav class="navbar navbar-light bg-light justify-content-between px-3">
-                <img className="navbar-brand" src={Pikachu} alt="Pikachu"></img>
-                <form class="form-inline d-flex">
-                    <p className="me-5 pt-2">Home</p>
-                    <p className="me-5 pt-2">Estatísticas</p>
-                </form>
+            <nav className="navbar bg-warning text-center d-flex justify-content-center">
+                <img className="" src={Pikachu} alt="Pikachu"></img>
             </nav>
         </div>
     )

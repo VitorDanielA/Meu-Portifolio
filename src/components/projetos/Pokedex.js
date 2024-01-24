@@ -12,7 +12,7 @@ export default function Pokedex(){
   useEffect(() => {
     const fetchPokemonLista = async () => {
       try{
-          const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=92');
+          const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=152');
           const data = await response.json();
           setPokemonLista(data.results);
 
@@ -31,7 +31,7 @@ export default function Pokedex(){
       try{
           const response = await fetch(url);
           const data = await response.json();
-          console.log('Detalhes do Pokémon:', data);
+          console.log(data);
           setPokemonDetalhes(prevDetalhes => ({
             ...prevDetalhes,
             [url]: data,
@@ -48,7 +48,7 @@ export default function Pokedex(){
   const filteredPokemonList = pokemonLista.filter((pokemon) => pokemon.name.toLowerCase().includes(pokemonNome.toLowerCase()));
 
   return(
-    <div className="">
+    <div>
       <NavBarPokedex/>
         <div className="text-center">
           <h1 className={`${styles.title_color} text-center mt-5`}>Bem vindo a Pokédex</h1>
@@ -56,22 +56,26 @@ export default function Pokedex(){
           <div className="form-group container w-100 d-flex justify-content-center mt-5">
             <input 
               type="text" 
-              class={`${styles.input} form-control text-center `} 
+              className={`${styles.input} form-control text-center `} 
               placeholder="Busque o Pokemon"
               onChange={(e) => setPokemonNome(e.target.value)}
             />
           </div>
-          </div>
-          <div className="container d-flex flex-wrap justify-content-around mt-5">
-            {filteredPokemonList.map((pokemon, index) => (
-              <PokemonCard 
-                index = {index + 1} 
-                nome = {pokemon.name}
-                habilidades={pokemonDetalhes[pokemon.url] && pokemonDetalhes[pokemon.url].types ? pokemonDetalhes[pokemon.url].types : []} 
-                imgPokemon = {pokemonDetalhes[pokemon.url] && pokemonDetalhes[pokemon.url].sprites ? pokemonDetalhes[pokemon.url].sprites.front_default : ""}
-              />
-            ))}
-          </div>
         </div>
-    )
+      <div className="container d-flex flex-wrap justify-content-around mt-5">
+        {filteredPokemonList.map((pokemon, index) => (
+          <PokemonCard 
+            index = {index + 1} 
+            nome = {pokemon.name}
+            habilidades={pokemonDetalhes[pokemon.url] && pokemonDetalhes[pokemon.url].types ? pokemonDetalhes[pokemon.url].types : []} 
+            imgPokemon = {pokemonDetalhes[pokemon.url] && pokemonDetalhes[pokemon.url].sprites ? pokemonDetalhes[pokemon.url].sprites.front_default : ""}
+            experiencia = {pokemonDetalhes[pokemon.url] ? pokemonDetalhes[pokemon.url].base_experience : ""}
+            abilitie1 = {pokemonDetalhes[pokemon.url] ? pokemonDetalhes[pokemon.url].abilities[0].ability.name : ""}
+            altura = {pokemonDetalhes[pokemon.url] ? pokemonDetalhes[pokemon.url].height : ""}
+            peso = {pokemonDetalhes[pokemon.url] ? pokemonDetalhes[pokemon.url].weight : ""}
+          />
+        ))}
+      </div>
+    </div>
+  )
 }
