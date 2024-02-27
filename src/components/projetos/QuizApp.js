@@ -158,7 +158,7 @@ export default function QuizApp(){
             {seqQuiz === 9 ? <QuestoesQuiz 
                 questao = "9. Quantas copinhas o Corinthians têm? "
                 choice1 = "9"
-                choice2 = "10"
+                choice2 = "11"
                 choice3 = "5"
                 choice4 = "7"
                 numQuest = {9}

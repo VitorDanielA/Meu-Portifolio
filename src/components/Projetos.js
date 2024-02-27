@@ -54,7 +54,7 @@ export default function Projetos(){
                     titulo = 'Quiz APP'
                     imagem = {QuizApp}
                     caminho = '/quizApp'
-                    descricao = 'Quiz com 5 questões sobre um time de futebol para testar os conhecimentos daquela equipe e saber sua pontuação no final.'
+                    descricao = 'Quiz com 10 questões sobre um time de futebol para testar os conhecimentos daquela equipe e saber sua pontuação no final.'
                     repositorio = 'https://github.com/VitorDanielA/Meu-Portifolio/blob/master/src/components/projetos/QuizApp.js'
                     tecnologia1 = 'React JS'
                     tecnologia2 = 'Bootstrap'
